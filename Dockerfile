@@ -4,7 +4,7 @@ FROM php:7.1-fpm
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
 # Github api token for composer
-ENV API_TOKEN "e182383413576177cb2ae1cb4f626889a562ea07"
+ENV API_TOKEN "5eb0d47f75160681bedf936d7010aa4cc2bfa859"
 # PHP_CPPFLAGS are used by the docker-php-ext-* scripts
 ENV PHP_CPPFLAGS="$PHP_CPPFLAGS -std=c++11"
 
